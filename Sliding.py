@@ -29,4 +29,4 @@ for line in f:
 
         lastdate = dt
 
-print "boom"
+print "bang-boom-bang"
