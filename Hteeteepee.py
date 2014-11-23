@@ -9,4 +9,5 @@ print content
 
 root = ET.fromstring(content)
 
+
 print root.find("localtime").text
