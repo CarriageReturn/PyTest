@@ -2,16 +2,15 @@ __author__ = 'Xander'
 
 import datetime
 
+
 dt = datetime.datetime.strptime("20.11.2014", "%d.%m.%Y")
 
 print dt
 
-list = ['Apfel','Banane']
+fruits = ['Apfel', 'Banane', 'Birne']
 
+for l in fruits:
+    print l
 
-list.append('Birne')
+print fruits.index('Banane')
 
-for l in list:
-	print l
-
-print list.index('Banane')
